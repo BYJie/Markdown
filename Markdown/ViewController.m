@@ -5,7 +5,6 @@
 //  Created by 白云杰 on 16/12/28.
 //  Copyright © 2016年 白云杰. All rights reserved.
 //
-///Users/BYJie/Desktop/Demo/Markdown/Markdown/BYHeader.h
 #import "ViewController.h"
 
 @interface ViewController ()

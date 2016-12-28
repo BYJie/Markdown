@@ -1,16 +1,17 @@
 //
-//  AppDelegate.h
-//  MarkdownKeybord-iOS
+//  BYToolboardToolBar.h
+//  Markdown
 //
-//  Created by MexiQQ on 14/11/27.
-//  Copyright (c) 2014年 MexiQQ. All rights reserved.
+//  Created by 白云杰 on 16/12/28.
+//  Copyright © 2016年 白云杰. All rights reserved.
 //
+
 
 #import <UIKit/UIKit.h>
 
 typedef void (^eventHandlerBlock)();
 
-@interface MXToolbarButton : UIButton
+@interface BYToolboardToolBar : UIButton
 
 + (instancetype)buttonWithImage:(NSString *)imageName;
 
