@@ -41,7 +41,6 @@
     self.textView.frame = self.view.frame;
     [self.view addSubview:self.textView];
     
-    
     __weak typeof(self) weakSelf = self;
     self.textView.inputAccessoryView = [BYMarkdownKeyboard toolbarViewWithTextView:_textView keybordBlock:^(NSInteger index) {
         
@@ -73,6 +72,8 @@
     
     PreviewViewController *preview = [[PreviewViewController alloc] init];
     preview.style = _style;
+    
+    // 把markdown语法转成html
     preview.content = [MMMarkdown HTMLStringWithMarkdown:self.textView.text extensions:MMMarkdownExtensionsGitHubFlavored error:NULL];
     
     [self.navigationController pushViewController:preview animated:YES];
@@ -107,7 +108,7 @@
 }
 
 
-#pragma mark 键盘的处理
+#pragma mark - 键盘的处理
 - (void)addKeyboardNotification {
     
     NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
@@ -115,24 +116,22 @@
     [center addObserver:self selector:@selector(keyBoardWillHidden:) name:UIKeyboardWillHideNotification object:nil];
 }
 
-#pragma mark 这里仅仅移动，可用于textField等
+#pragma mark 键盘弹起
 - (void)keyBoardWillShow:(NSNotification *)noti
 {
     CGFloat keyboardH = [noti.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue].size.height;
     // 获取键盘出现的时间
     CGFloat duration = [noti.userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue];
-    // 添加键盘位移的动画
     [UIView animateWithDuration:duration animations:^{
-//        self.textView.transform =CGAffineTransformMakeTranslation(0, -keyboardH);
-        self.textView.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight - keyboardH);
+        self.textView.contentInset = UIEdgeInsetsMake(64, 0, keyboardH, 0);
     }];
 }
 
+#pragma mark - 键盘收回
 - (void)keyBoardWillHidden:(NSNotification *)noti{
     CGFloat duration = [noti.userInfo[UIKeyboardAnimationDurationUserInfoKey] doubleValue];
     [UIView animateWithDuration:duration animations:^{
-//        self.textView.transform = CGAffineTransformIdentity;
-        self.textView.frame = self.view.frame;
+        self.textView.contentInset = UIEdgeInsetsMake(64, 0, 0, 0);
     }];
 }
 

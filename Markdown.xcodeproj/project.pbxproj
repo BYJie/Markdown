@@ -27,7 +27,6 @@
 		625707641E140E6500D71872 /* quote.png in Resources */ = {isa = PBXBuildFile; fileRef = 625707561E140E6500D71872 /* quote.png */; };
 		625707651E140E6500D71872 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 625707571E140E6500D71872 /* title.png */; };
 		625707661E140E6500D71872 /* ul.png in Resources */ = {isa = PBXBuildFile; fileRef = 625707581E140E6500D71872 /* ul.png */; };
-		6297503C1E1CBBC100C0528F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 629750251E1CBBC100C0528F /* Info.plist */; };
 		6297503D1E1CBBC100C0528F /* markdown-black.css in Resources */ = {isa = PBXBuildFile; fileRef = 629750261E1CBBC100C0528F /* markdown-black.css */; };
 		6297503E1E1CBBC100C0528F /* markdown-old.css in Resources */ = {isa = PBXBuildFile; fileRef = 629750271E1CBBC100C0528F /* markdown-old.css */; };
 		6297503F1E1CBBC100C0528F /* markdown-white.css in Resources */ = {isa = PBXBuildFile; fileRef = 629750281E1CBBC100C0528F /* markdown-white.css */; };
@@ -86,7 +85,6 @@
 		625707561E140E6500D71872 /* quote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quote.png; sourceTree = "<group>"; };
 		625707571E140E6500D71872 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
 		625707581E140E6500D71872 /* ul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ul.png; sourceTree = "<group>"; };
-		629750251E1CBBC100C0528F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		629750261E1CBBC100C0528F /* markdown-black.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "markdown-black.css"; sourceTree = "<group>"; };
 		629750271E1CBBC100C0528F /* markdown-old.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "markdown-old.css"; sourceTree = "<group>"; };
 		629750281E1CBBC100C0528F /* markdown-white.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "markdown-white.css"; sourceTree = "<group>"; };
@@ -236,7 +234,6 @@
 		629750241E1CBBC100C0528F /* MMMarkdown */ = {
 			isa = PBXGroup;
 			children = (
-				629750251E1CBBC100C0528F /* Info.plist */,
 				629750261E1CBBC100C0528F /* markdown-black.css */,
 				629750271E1CBBC100C0528F /* markdown-old.css */,
 				629750281E1CBBC100C0528F /* markdown-white.css */,
@@ -373,7 +370,6 @@
 			files = (
 				6297503E1E1CBBC100C0528F /* markdown-old.css in Resources */,
 				6297503F1E1CBBC100C0528F /* markdown-white.css in Resources */,
-				6297503C1E1CBBC100C0528F /* Info.plist in Resources */,
 				6257075E1E140E6500D71872 /* hr.png in Resources */,
 				6297507B1E1CD2E600C0528F /* images.bundle in Resources */,
 				625707611E140E6500D71872 /* link.png in Resources */,

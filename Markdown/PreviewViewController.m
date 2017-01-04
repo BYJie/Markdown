@@ -46,6 +46,7 @@ typedef NS_ENUM(NSInteger, CSSStyle) {
         cssString = defaultStyle;
     }
     
+    // 这个拼接是把主题拼接在html的前面，然后用webview去在家html
     NSString *value = [cssString stringByAppendingString:_content];
     [self.webView loadHTMLString:value baseURL:[[NSBundle mainBundle] bundleURL]];
 }

@@ -40,7 +40,7 @@
         [self addSubview:iv];
         self.background = iv;
         UIImageView * logo = [[UIImageView alloc]init];
-        [logo bhb_setImageWithResourcePath:@"images.bundle/compose_slogan" AutoSize:YES];
+//        [logo bhb_setImageWithResourcePath:@"images.bundle/compose_slogan" AutoSize:YES];
         logo.center = CGPointMake(frame.size.width / 2, frame.size.height * 0.2);
         [self addSubview:logo];
         self.logo = logo;
