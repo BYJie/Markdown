@@ -27,6 +27,7 @@
 		625707641E140E6500D71872 /* quote.png in Resources */ = {isa = PBXBuildFile; fileRef = 625707561E140E6500D71872 /* quote.png */; };
 		625707651E140E6500D71872 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 625707571E140E6500D71872 /* title.png */; };
 		625707661E140E6500D71872 /* ul.png in Resources */ = {isa = PBXBuildFile; fileRef = 625707581E140E6500D71872 /* ul.png */; };
+		627DB4941E24A6E3007401A8 /* ThemeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 627DB4931E24A6E3007401A8 /* ThemeMenu.m */; };
 		6297503D1E1CBBC100C0528F /* markdown-black.css in Resources */ = {isa = PBXBuildFile; fileRef = 629750261E1CBBC100C0528F /* markdown-black.css */; };
 		6297503E1E1CBBC100C0528F /* markdown-old.css in Resources */ = {isa = PBXBuildFile; fileRef = 629750271E1CBBC100C0528F /* markdown-old.css */; };
 		6297503F1E1CBBC100C0528F /* markdown-white.css in Resources */ = {isa = PBXBuildFile; fileRef = 629750281E1CBBC100C0528F /* markdown-white.css */; };
@@ -42,19 +43,7 @@
 		6297504B1E1CBEBD00C0528F /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6297504A1E1CBEBD00C0528F /* PreviewViewController.m */; };
 		6297504F1E1CC19300C0528F /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = 6297504E1E1CC19300C0528F /* Const.m */; };
 		629750521E1CC7DE00C0528F /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629750511E1CC7DE00C0528F /* HelpViewController.m */; };
-		629750741E1CD2E600C0528F /* BHBBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6297505B1E1CD2E600C0528F /* BHBBottomBar.m */; };
-		629750751E1CD2E600C0528F /* BHBCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6297505D1E1CD2E600C0528F /* BHBCenterView.m */; };
-		629750761E1CD2E600C0528F /* BHBCustomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 6297505F1E1CD2E600C0528F /* BHBCustomBtn.m */; };
-		629750771E1CD2E600C0528F /* BHBGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 629750611E1CD2E600C0528F /* BHBGroup.m */; };
-		629750781E1CD2E600C0528F /* BHBItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 629750631E1CD2E600C0528F /* BHBItem.m */; };
-		629750791E1CD2E600C0528F /* BHBPlaySoundTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 629750651E1CD2E600C0528F /* BHBPlaySoundTool.m */; };
-		6297507A1E1CD2E600C0528F /* BHBPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 629750671E1CD2E600C0528F /* BHBPopView.m */; };
-		6297507B1E1CD2E600C0528F /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6297506A1E1CD2E600C0528F /* images.bundle */; };
-		6297507C1E1CD2E600C0528F /* music.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6297506B1E1CD2E600C0528F /* music.bundle */; };
-		6297507D1E1CD2E600C0528F /* UIButton+BHBSetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6297506D1E1CD2E600C0528F /* UIButton+BHBSetImage.m */; };
-		6297507E1E1CD2E600C0528F /* UIImage+BHBEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6297506F1E1CD2E600C0528F /* UIImage+BHBEffects.m */; };
-		6297507F1E1CD2E600C0528F /* UIImageView+BHBSetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 629750711E1CD2E600C0528F /* UIImageView+BHBSetImage.m */; };
-		629750801E1CD2E600C0528F /* UIView+BHBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 629750731E1CD2E600C0528F /* UIView+BHBAnimation.m */; };
+		629750831E1DE6BA00C0528F /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 629750821E1DE6BA00C0528F /* CustomAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +74,8 @@
 		625707561E140E6500D71872 /* quote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quote.png; sourceTree = "<group>"; };
 		625707571E140E6500D71872 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
 		625707581E140E6500D71872 /* ul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ul.png; sourceTree = "<group>"; };
+		627DB4921E24A6E3007401A8 /* ThemeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeMenu.h; sourceTree = "<group>"; };
+		627DB4931E24A6E3007401A8 /* ThemeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeMenu.m; sourceTree = "<group>"; };
 		629750261E1CBBC100C0528F /* markdown-black.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "markdown-black.css"; sourceTree = "<group>"; };
 		629750271E1CBBC100C0528F /* markdown-old.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "markdown-old.css"; sourceTree = "<group>"; };
 		629750281E1CBBC100C0528F /* markdown-white.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "markdown-white.css"; sourceTree = "<group>"; };
@@ -113,31 +104,8 @@
 		6297504E1E1CC19300C0528F /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
 		629750501E1CC7DE00C0528F /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
 		629750511E1CC7DE00C0528F /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
-		6297505A1E1CD2E600C0528F /* BHBBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBBottomBar.h; sourceTree = "<group>"; };
-		6297505B1E1CD2E600C0528F /* BHBBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBBottomBar.m; sourceTree = "<group>"; };
-		6297505C1E1CD2E600C0528F /* BHBCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBCenterView.h; sourceTree = "<group>"; };
-		6297505D1E1CD2E600C0528F /* BHBCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBCenterView.m; sourceTree = "<group>"; };
-		6297505E1E1CD2E600C0528F /* BHBCustomBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBCustomBtn.h; sourceTree = "<group>"; };
-		6297505F1E1CD2E600C0528F /* BHBCustomBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBCustomBtn.m; sourceTree = "<group>"; };
-		629750601E1CD2E600C0528F /* BHBGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBGroup.h; sourceTree = "<group>"; };
-		629750611E1CD2E600C0528F /* BHBGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBGroup.m; sourceTree = "<group>"; };
-		629750621E1CD2E600C0528F /* BHBItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBItem.h; sourceTree = "<group>"; };
-		629750631E1CD2E600C0528F /* BHBItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBItem.m; sourceTree = "<group>"; };
-		629750641E1CD2E600C0528F /* BHBPlaySoundTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBPlaySoundTool.h; sourceTree = "<group>"; };
-		629750651E1CD2E600C0528F /* BHBPlaySoundTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBPlaySoundTool.m; sourceTree = "<group>"; };
-		629750661E1CD2E600C0528F /* BHBPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBPopView.h; sourceTree = "<group>"; };
-		629750671E1CD2E600C0528F /* BHBPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBPopView.m; sourceTree = "<group>"; };
-		629750681E1CD2E600C0528F /* BHBSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBSingleton.h; sourceTree = "<group>"; };
-		6297506A1E1CD2E600C0528F /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
-		6297506B1E1CD2E600C0528F /* music.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = music.bundle; sourceTree = "<group>"; };
-		6297506C1E1CD2E600C0528F /* UIButton+BHBSetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BHBSetImage.h"; sourceTree = "<group>"; };
-		6297506D1E1CD2E600C0528F /* UIButton+BHBSetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BHBSetImage.m"; sourceTree = "<group>"; };
-		6297506E1E1CD2E600C0528F /* UIImage+BHBEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BHBEffects.h"; sourceTree = "<group>"; };
-		6297506F1E1CD2E600C0528F /* UIImage+BHBEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BHBEffects.m"; sourceTree = "<group>"; };
-		629750701E1CD2E600C0528F /* UIImageView+BHBSetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BHBSetImage.h"; sourceTree = "<group>"; };
-		629750711E1CD2E600C0528F /* UIImageView+BHBSetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BHBSetImage.m"; sourceTree = "<group>"; };
-		629750721E1CD2E600C0528F /* UIView+BHBAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BHBAnimation.h"; sourceTree = "<group>"; };
-		629750731E1CD2E600C0528F /* UIView+BHBAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BHBAnimation.m"; sourceTree = "<group>"; };
+		629750811E1DE6BA00C0528F /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		629750821E1DE6BA00C0528F /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +138,7 @@
 		625706E61E13FE2400D71872 /* Markdown */ = {
 			isa = PBXGroup;
 			children = (
-				629750591E1CD2E600C0528F /* BHBPopView */,
+				627DB4911E24A6D4007401A8 /* themeMenu */,
 				6297504C1E1CC17A00C0528F /* Tools */,
 				629750241E1CBBC100C0528F /* MMMarkdown */,
 				625707471E140E6500D71872 /* BYMarkdownKeyboard */,
@@ -231,6 +199,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		627DB4911E24A6D4007401A8 /* themeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				627DB4921E24A6E3007401A8 /* ThemeMenu.h */,
+				627DB4931E24A6E3007401A8 /* ThemeMenu.m */,
+			);
+			path = themeMenu;
+			sourceTree = "<group>";
+		};
 		629750241E1CBBC100C0528F /* MMMarkdown */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,50 +240,12 @@
 		6297504C1E1CC17A00C0528F /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				629750811E1DE6BA00C0528F /* CustomAlertView.h */,
+				629750821E1DE6BA00C0528F /* CustomAlertView.m */,
 				6297504D1E1CC19300C0528F /* Const.h */,
 				6297504E1E1CC19300C0528F /* Const.m */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		629750591E1CD2E600C0528F /* BHBPopView */ = {
-			isa = PBXGroup;
-			children = (
-				6297505A1E1CD2E600C0528F /* BHBBottomBar.h */,
-				6297505B1E1CD2E600C0528F /* BHBBottomBar.m */,
-				6297505C1E1CD2E600C0528F /* BHBCenterView.h */,
-				6297505D1E1CD2E600C0528F /* BHBCenterView.m */,
-				6297505E1E1CD2E600C0528F /* BHBCustomBtn.h */,
-				6297505F1E1CD2E600C0528F /* BHBCustomBtn.m */,
-				629750601E1CD2E600C0528F /* BHBGroup.h */,
-				629750611E1CD2E600C0528F /* BHBGroup.m */,
-				629750621E1CD2E600C0528F /* BHBItem.h */,
-				629750631E1CD2E600C0528F /* BHBItem.m */,
-				629750641E1CD2E600C0528F /* BHBPlaySoundTool.h */,
-				629750651E1CD2E600C0528F /* BHBPlaySoundTool.m */,
-				629750661E1CD2E600C0528F /* BHBPopView.h */,
-				629750671E1CD2E600C0528F /* BHBPopView.m */,
-				629750681E1CD2E600C0528F /* BHBSingleton.h */,
-				629750691E1CD2E600C0528F /* Resource */,
-				6297506C1E1CD2E600C0528F /* UIButton+BHBSetImage.h */,
-				6297506D1E1CD2E600C0528F /* UIButton+BHBSetImage.m */,
-				6297506E1E1CD2E600C0528F /* UIImage+BHBEffects.h */,
-				6297506F1E1CD2E600C0528F /* UIImage+BHBEffects.m */,
-				629750701E1CD2E600C0528F /* UIImageView+BHBSetImage.h */,
-				629750711E1CD2E600C0528F /* UIImageView+BHBSetImage.m */,
-				629750721E1CD2E600C0528F /* UIView+BHBAnimation.h */,
-				629750731E1CD2E600C0528F /* UIView+BHBAnimation.m */,
-			);
-			path = BHBPopView;
-			sourceTree = "<group>";
-		};
-		629750691E1CD2E600C0528F /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				6297506A1E1CD2E600C0528F /* images.bundle */,
-				6297506B1E1CD2E600C0528F /* music.bundle */,
-			);
-			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,7 +310,6 @@
 				6297503E1E1CBBC100C0528F /* markdown-old.css in Resources */,
 				6297503F1E1CBBC100C0528F /* markdown-white.css in Resources */,
 				6257075E1E140E6500D71872 /* hr.png in Resources */,
-				6297507B1E1CD2E600C0528F /* images.bundle in Resources */,
 				625707611E140E6500D71872 /* link.png in Resources */,
 				625707651E140E6500D71872 /* title.png in Resources */,
 				6257075B1E140E6500D71872 /* bold.png in Resources */,
@@ -386,7 +324,6 @@
 				625706F41E13FE2500D71872 /* Assets.xcassets in Resources */,
 				625706F21E13FE2500D71872 /* Main.storyboard in Resources */,
 				6257075F1E140E6500D71872 /* img.png in Resources */,
-				6297507C1E1CD2E600C0528F /* music.bundle in Resources */,
 				6297503D1E1CBBC100C0528F /* markdown-black.css in Resources */,
 				625707641E140E6500D71872 /* quote.png in Resources */,
 			);
@@ -400,31 +337,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				6297504F1E1CC19300C0528F /* Const.m in Sources */,
-				6297507D1E1CD2E600C0528F /* UIButton+BHBSetImage.m in Sources */,
 				629750461E1CBBC100C0528F /* MMParser.m in Sources */,
 				625706EF1E13FE2400D71872 /* ViewController.m in Sources */,
-				6297507F1E1CD2E600C0528F /* UIImageView+BHBSetImage.m in Sources */,
+				627DB4941E24A6E3007401A8 /* ThemeMenu.m in Sources */,
 				629750481E1CBBC100C0528F /* MMSpanParser.m in Sources */,
 				629750471E1CBBC100C0528F /* MMScanner.m in Sources */,
-				629750761E1CD2E600C0528F /* BHBCustomBtn.m in Sources */,
 				629750441E1CBBC100C0528F /* MMHTMLParser.m in Sources */,
 				629750431E1CBBC100C0528F /* MMGenerator.m in Sources */,
 				629750521E1CC7DE00C0528F /* HelpViewController.m in Sources */,
 				629750421E1CBBC100C0528F /* MMElement.m in Sources */,
-				629750741E1CD2E600C0528F /* BHBBottomBar.m in Sources */,
-				6297507E1E1CD2E600C0528F /* UIImage+BHBEffects.m in Sources */,
 				629750451E1CBBC100C0528F /* MMMarkdown.m in Sources */,
 				625706EC1E13FE2400D71872 /* AppDelegate.m in Sources */,
 				629750411E1CBBC100C0528F /* MMDocument.m in Sources */,
-				629750781E1CD2E600C0528F /* BHBItem.m in Sources */,
-				629750771E1CD2E600C0528F /* BHBGroup.m in Sources */,
 				6257075A1E140E6500D71872 /* BYToolboardToolBar.m in Sources */,
 				6297504B1E1CBEBD00C0528F /* PreviewViewController.m in Sources */,
-				629750801E1CD2E600C0528F /* UIView+BHBAnimation.m in Sources */,
-				629750791E1CD2E600C0528F /* BHBPlaySoundTool.m in Sources */,
 				625707591E140E6500D71872 /* BYMarkdownKeyboard.m in Sources */,
-				6297507A1E1CD2E600C0528F /* BHBPopView.m in Sources */,
-				629750751E1CD2E600C0528F /* BHBCenterView.m in Sources */,
+				629750831E1DE6BA00C0528F /* CustomAlertView.m in Sources */,
 				625706E91E13FE2400D71872 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

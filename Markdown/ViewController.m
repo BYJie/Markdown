@@ -8,7 +8,7 @@
 #import "ViewController.h"
 
 
-@interface ViewController () <UITextViewDelegate>
+@interface ViewController () <UITextViewDelegate, ThemeMenuDelegate>
 
 @property (nonatomic, strong) UITextView *textView;
 @property (nonatomic, assign) NSInteger style;
@@ -89,24 +89,26 @@
 #pragma mark - 选择主题
 - (void)changeStyle {
     
-    [BHBPopView showToView:self.view andImages:@[@"images.bundle/tabbar_compose_wbcamera",@"images.bundle/tabbar_compose_wbcamera",@"images.bundle/tabbar_compose_wbcamera",@"images.bundle/tabbar_compose_wbcamera"] andTitles:@[@"默认",@"白色",@"黑色",@"旧"] andSelectBlock:^(BHBItem *item) {
-        
-        NSLog(@"%@", item.title);
-        
-        if ([item.title isEqualToString:@"白色"]) {
-            self.style = 2;
-        } else if ([item.title isEqualToString:@"黑色"]) {
-            self.style = 3;
-        } else if ([item.title isEqualToString:@"旧"]) {
-            self.style = 4;
-        } else {
-            self.style = 1;
-        }
-        
-        [self.textView becomeFirstResponder];
-    }];
+    ThemeMenu *theme = [[ThemeMenu alloc] init];
+    theme.delegate = self;
+    [theme show];
 }
 
+#pragma mark - 代理
+- (void)btnClickWithIndex:(NSInteger)index {
+    
+    if (index == 1) {
+        self.style = 1;
+    } else if (index == 2) {
+        self.style = 2;
+    } else if (index == 3) {
+        self.style = 3;
+    } else {
+        self.style = 4;
+    }
+    
+    [self.textView becomeFirstResponder];
+}
 
 #pragma mark - 键盘的处理
 - (void)addKeyboardNotification {
